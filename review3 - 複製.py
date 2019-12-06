@@ -1,0 +1,12 @@
+a=[0, 1, 2, 3, 4]
+b=[5, 6, 7, 8, 9]
+x=int(input())
+y=int(input())
+c = x+y
+if c in a:
+	print("a")
+elif c in b:
+	print("b")
+else:
+	print("None")
+
